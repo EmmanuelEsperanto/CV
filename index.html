@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amhad Magomadov - Unreal Engine Developer</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin:0; 
+            padding:0; 
+            background:#0f0f0f; 
+            color:#ddd; 
+        }
+        .header { 
+            background: linear-gradient(#1a1a1a, #0a0a0a); 
+            padding: 20px 20px 20px; 
+            text-align:center; 
+            border-bottom: 4px solid #c6ddff;
+        }
+        .photo { 
+            width:180px; 
+            height:180px; 
+            border-radius:50%; 
+            border:6px solid #c6ddff; 
+            object-fit:cover; 
+            margin-bottom:20px; 
+        }
+        h1 { margin:0; font-size:2.8em; color:white; }
+        .title { font-size:1.3em; color:#c6ddff; margin:10px 0 0; }
+
+        .container { 
+            max-width:1100px; 
+            margin:40px auto; 
+            padding:0 20px; 
+        }
+        h2 { 
+            color:#c6ddff; 
+            border-bottom:2px solid #333; 
+            padding-bottom:12px; 
+            font-size:1.6em; 
+        }
+
+        .experience { margin-bottom:50px; }
+        .job { 
+            background:#1a1a1a; 
+            padding:18px 22px; 
+            margin-bottom:15px; 
+            border-left:5px solid #c6ddff; 
+            border-radius:4px;
+        }
+        .job-title { font-weight:bold; font-size:1.15em; color:white; }
+
+        .projects { 
+            display:grid; 
+            grid-template-columns:repeat(auto-fit, minmax(320px,1fr)); 
+            gap:25px; 
+        }
+        .project-card { 
+            background:#1a1a1a; 
+            border-radius:8px; 
+            overflow:hidden; 
+            box-shadow:0 4px 15px rgba(0,0,0,0.4); 
+            transition:0.3s; 
+        }
+        .project-card:hover { transform:translateY(-8px); }
+        .project-card img { 
+            width:100%; 
+            height:200px; 
+            object-fit:cover; 
+        }
+        .project-info { 
+            padding:20px; 
+        }
+        .project-info h3 { 
+            margin:0 0 12px 0; 
+            color:#c6ddff; 
+        }
+        .tag { 
+            display:inline-block; 
+            background:#003366; 
+            color:#66aaff; 
+            padding:4px 14px; 
+            border-radius:20px; 
+            font-size:13px; 
+            margin-bottom:12px; 
+        }
+
+        .contacts { 
+            text-align:center; 
+            margin:60px 0 40px; 
+            font-size:1.4em; 
+        }
+        .contacts a { 
+            color:#66aaff; 
+            margin:0 25px; 
+            text-decoration:none; 
+        }
+        .contacts a:hover { color:#99ccff; text-decoration:underline; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://media.licdn.com/dms/image/v2/C4D03AQGKjBfFpN8R_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1661760638154?e=1776902400&v=beta&t=XjoQlAAwp9OiGtBTYPOfvFKLwnhUNIX6jQ9jAKCrXAs" alt="Amhad Magomadov" class="photo">
+        <h1>Amhad Magomadov</h1>
+        <p class="title">Unreal Engine Developer</p>
+    </div>
+
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="experience">
+            <div class="job">
+                <div class="job-title">UE Tech Lead — VR Real Victory</div>
+                <p>2024 – Present</p>
+            </div>
+            <div class="job">
+                <div class="job-title">UE Tech Lead — AIXLand</div>
+                <p>2023 – 2024 (7 months)</p>
+            </div>
+            <div class="job">
+                <div class="job-title">Unreal Engine Developer — Story Mode LLC</div>
+                <p>2023 – 2023 (5 months)</p>
+            </div>
+            <div class="job">
+                <div class="job-title">Main Unreal Engine Developer — Expovision</div>
+                <p>2022 – 2023 (1 year 3 months)</p>
+            </div>
+            <div class="job">
+                <div class="job-title">Indie Developer</div>
+                <p>Personal projects & small indie teams</p>
+                <p>2020 – 2021 (1 year 1 month)</p>
+            </div>
+        </div>
+
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="https://img.youtube.com/vi/_ZHEsG2F6fw/sddefault.jpg" alt="VR Real Victory">
+                <div class="project-info">
+                    <span class="tag">Company</span>
+                    <h3>VR Real Victory</h3>
+                    <p>• VR Shooter mechanics.<br>
+					• Multiplayer roomscale movement.<br>
+					• Rest API integrated.<br>
+					• Fullbody Inverse Kinematic movement.<br> 
+					• Entity AI.<br>
+					• Developed a Server for Windows and a Client for Android.<br>
+					• Optimized assets for VR Android (shaders, meshes, draw calls, etc)<br>
+					• Designed UI layout.<br>
+					• Zombie waves system.</p>
+                    <a href="https://www.youtube.com/watch?v=_ZHEsG2F6fw" target="_blank">Watch on YouTube →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://img.youtube.com/vi/FRZNqlTUEwA/sddefault.jpg" alt="Gold Fever">
+                <div class="project-info">
+                    <span class="tag">Company</span>
+                    <h3>Gold Fever</h3>
+                    <p>
+					• Multiplayer mount system.<br>
+					• Blockchain integrated.<br>
+					• Game modules optimization.<br> 
+					• Navigation system in open world.<br>
+					• Programmed using the client-server model for Dedicated Server.<br>
+					• Fixes in weather implementation.</p>
+                    <a href="https://www.youtube.com/watch?v=FRZNqlTUEwA" target="_blank">Watch on YouTube →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://img.youtube.com/vi/lw2bIE5A8rk/sddefault.jpg?text=Expovision" alt="Expovision">
+                <div class="project-info">
+                    <span class="tag">Company</span>
+                    <h3>Car configurator</h3>
+                    <p>• Base configuration mechanics.<br>
+					• Convenient architecture.<br>
+					• Easy addition of new cars and their parts.</p>
+                    <a href="https://www.youtube.com/watch?v=lw2bIE5A8rk" target="_blank">Watch on YouTube →</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="https://img.youtube.com/vi/nYi3NGCl0cM/sddefault.jpg?text=Shadow+Realms" alt="Shadow Realms">
+                <div class="project-info">
+                    <span class="tag">Company</span>
+                    <h3>AIXLand</h3>
+                    <p>Designed the architecture of services and their interaction via API on the backend side.
+<br>• Worked closely with the company management.
+<br>• Participated in discussions of partnerships with third parties.
+<br>• Developed the main functionality for some services.
+<br>• Created a unified system for uploading updates for the company's services and downloading them.
+<br>• for clients.
+<br>• Provided assistance and support to colleagues.
+<br>• Integrated some services with the frontend part.</p>
+                    <a href="https://www.youtube.com/watch?v=nYi3NGCl0cM" target="_blank">Watch video →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/984790/header.jpg?t=1735066218?text=Sample+Mechanics" alt="It'sRoachTime!">
+                <div class="project-info">
+                    <span class="tag">Indie Team</span>
+                    <h3>It'sRoachTime!</h3>
+                    <p>Second project.<br>• Almost from scratch to released on steam.<br>
+					• Developed fighting mechanics.<br>
+					• Multiplayer support.<br>
+					• High performance Net-Code.<br>
+					• Simple chat system.<br>
+					• Connected Steam API.<br>
+					• Built a flexible project architecture.<br>
+					• Made a tool for conveniently adding new content in the form of objects, weapons, combat animations, combo strikes, etc.</p>
+                    <a href="https://store.steampowered.com/app/984790/ItsRoachTime/" target="_blank">View on Steam →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://img.youtube.com/vi/J10XQAsTJcw/sddefault.jpg?text=Night+Runner" alt="Ghost Mansion">
+                <div class="project-info">
+                    <span class="tag">Indie Team</span>
+                    <h3>Ghost Mansion</h3>
+                    <p>First project.<br>
+					• Developed light shoting multiplayer system.<br>
+					• Player interactions system.<br>
+					• Built a flexible project architecture.<br>
+                    <a href="https://www.youtube.com/watch?v=J10XQAsTJcw" target="_blank">Watch on YouTube →</a>
+                </div>
+            </div>
+        </div>
+
+        <h2>Contact</h2>
+        <div class="contacts">
+            <a href="https://t.me/Gunibo">Telegram</a>
+            <a href="https://wa.me/79282904015">WhatsApp</a>
+            <a href="mailto:jobamhad@gmail.com">Email</a>
+        </div>
+    </div>
+</body>
+</html>
